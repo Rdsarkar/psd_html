@@ -1,0 +1,206 @@
+<style> @import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Ubuntu:300,400');
+</style> 
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+/*header start*/
+
+header {
+    overflow: hidden;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.logo p {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+}
+.nav {
+    width: 70%;
+    float: right;
+}
+.nav ul {
+    float: right;
+}
+.nav ul li {
+    margin-left: 98px;
+    float: left;
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 30px 25px;
+    color: #626262;
+}
+
+/*header end*/
+
+
+/*banner start*/
+
+.banner {}
+.banner_img {}
+.banner_img img {
+    width: 100%;
+}
+
+/*banner end*/
+
+
+/*service start*/
+
+.service {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.wrapper_2 {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.service_content {}
+.service_content h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.common {
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #B4AD9E;
+}
+.service_text {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+/*service end*/
+
+
+/*blog start*/
+
+.blog {}
+.blog_content {
+    overflow: hidden;
+}
+.single {
+    width: 48%;
+    float: left;
+    overflow: hidden;
+}
+.single:nth-child(even) {
+    margin-left: 4%;
+}
+.single img {
+    width: 100%;
+}
+.single h1 {
+    font-size: 30px;
+}
+.single p {}
+
+/*blog end*/
+
+
+/*news part start*/
+
+.news {
+    padding: 100px 0;
+    background-color: #f0f0f0;
+    margin-top: 100px;
+}
+.news_content {
+    text-align: center;
+}
+.news_content h1 {
+    font-size: 30px;
+}
+.news_content form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.news_content input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 300px;
+}
+.news_content button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*news part end*/
+
+
+/*more blog start*/
+
+.more_blog {
+    overflow: hidden;
+    padding-top: 100px;
+    min-height: 900px;
+}
+.more_content {
+    overflow: hidden;
+}
+.more_blog button {
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: 1px solid #626262;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: #626262;
+    margin: 150px 43%;
+}
+
+/*more blog end*/
+
+
+/*footer start*/
+
+.footer {
+    background-color: #f0f0f0;
+    min-height: 100px;
+    font-weight: 600;
+}
+.f_wrapper {
+    width: 90%;
+    margin-top: 25px;
+    float: right;
+}
+.footer_left {
+    width: 20%;
+    float: left;
+}
+.footer_left p {}
+.footer_right {
+    width: 19%;
+    float: right;
+}
+.footer_right p {
+    float: left;
+}
+.footer_right img {
+    margin-top: 5px;
+}
+
+/*footer end*/
